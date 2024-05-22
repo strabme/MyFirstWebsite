@@ -24,3 +24,6 @@ header .logo {
   color: black;
   font-size: 14px;
 }
+.action-bar {
+  gap: 45px;
+}
