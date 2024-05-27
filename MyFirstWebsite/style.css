@@ -153,3 +153,66 @@ button {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.product-slides {
+  position: relative;
+  height: 600px;
+}
+.product-slides .image-slides {
+  background-color: #3a3a3a;
+  border: 3px solid red;
+  height: 443px;
+  width: 643px;
+  padding: 1162px 1143px 537px 39px;
+  border-radius: 10px;
+  background-color: #fff3e3;
+  position: absolute;
+  right: 58px;
+  bottom: 100px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  max-width: 90%; /* Adjust as needed */
+  max-height: 90%; /* Adjust as needed */
+  padding: 20px; /* Adds padding inside the container */
+  margin: 20px; /* Adds margin outside the container */
+}
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.footer-content__item {
+  display: flex;
+  justify-content: flex-start;
+  gap: 125px;
+}
+.footer-content__item li {
+  list-style-type: none;
+}
+.footer-list {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.footer-content__item a {
+  text-decoration: none;
+}
+input[type="text"] {
+  border: none;
+  background: none;
+  border-bottom: 1px solid#000;
+}
+
+.funiro p {
+  margin-top: 30px;
+}
+
+.newsletter .action-footer {
+  margin-top: 30px;
+  display: flex;
+}
+.action-footer button {
+  background-color: white;
+  color: black;
+  padding: 0px;
+  height: 5px;
+}
